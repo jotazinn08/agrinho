@@ -1,0 +1,91 @@
+/* Estilo geral do site */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8e8; /* cor suave que lembra a natureza */
+    color: #3e4a3e; /* tom de verde escuro para textos */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Cabeçalho com tema agrícola */
+  header {
+    background-color: #8bc34a; /* verde vibrante, remetendo às plantas */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    font-size: 2.5em;
+    color: #ffffff;
+  }
+  
+  /* Menu de navegação */
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ffeb3b; /* amarelo que lembra o sol ou trigo */
+  }
+  
+  /* Seções do site */
+  section {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Título das seções */
+  section h2 {
+    font-family: 'Georgia', serif;
+    font-size: 2em;
+    color: #558b2f; /* verde escuro */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #aed581; /* detalhe que lembra folhas */
+    padding-bottom: 10px;
+  }
+  
+  /* Conteúdo das seções */
+  p {
+    line-height: 1.6;
+    font-size: 1.1em;
+  }
+  
+  /* Cards ou destaques */
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #8bc34a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1em;
+  }
